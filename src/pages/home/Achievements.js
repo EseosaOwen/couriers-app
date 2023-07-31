@@ -74,13 +74,13 @@ export default function Achievements() {
       </Main>
       <BottomImages>
         <figure>
-          <img src="/assets/images/gallery01.webp" />
+          <img alt="" src="/assets/images/gallery01.webp" />
         </figure>
         <figure>
-          <img src="/assets/images/gallery02.webp" />
+          <img alt="" src="/assets/images/gallery02.webp" />
         </figure>
         <figure>
-          <img src="/assets/images/gallery03.webp" />
+          <img alt="" src="/assets/images/gallery03.webp" />
         </figure>
       </BottomImages>
     </Container>
@@ -88,9 +88,9 @@ export default function Achievements() {
 }
 const primary = "#E11756";
 const secondary = "#FCCC0A";
-const heroText = "#BFC1C2";
+// const heroText = "#BFC1C2";
 const bg = "#fff";
-const dark = "#757677";
+// const dark = "#757677";
 
 const Container = styled.div`
   padding: 3rem;

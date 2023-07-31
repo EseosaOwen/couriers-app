@@ -25,12 +25,12 @@ export default function HeroSection() {
       <ContainerImage>
         <div>
           <figure>
-            <img src="/assets/images/container-image.webp" />
+            <img src="/assets/images/container-image.webp" alt="" />
           </figure>
           <p>Shipping Freight</p>
         </div>
         <figure>
-          <img src="/assets/images/container-image.webp" />
+          <img src="/assets/images/container-image.webp" alt="" />
         </figure>
       </ContainerImage>
     </Container>
@@ -39,9 +39,9 @@ export default function HeroSection() {
 
 const primary = "#E11756";
 const secondary = "#FCCC0A";
-const heroText = "#BFC1C2";
+// const heroText = "#BFC1C2";
 const bg = "#fff";
-const dark = "#020";
+// const dark = "#020";
 
 const Container = styled.div`
   background: linear-gradient(#3e081989, #4b081d89),
@@ -52,7 +52,7 @@ const Container = styled.div`
   display: flex;
   gap: 2rem;
   /* align-items: center; */
-  @media (max-width: 500px){
+  @media (max-width: 500px) {
     padding: 7rem 1.5rem;
   }
 `;
@@ -67,20 +67,20 @@ const HeroContent = styled.div`
     margin-bottom: 1rem;
     width: 60%;
 
-    @media (max-width: 1120px){
-        width: 70%;
+    @media (max-width: 1120px) {
+      width: 70%;
     }
 
-    @media (max-width: 1000px){
-        width: 90%;
+    @media (max-width: 1000px) {
+      width: 90%;
     }
 
-    @media (max-width: 700px){
-        font-size: 2.1rem;
+    @media (max-width: 700px) {
+      font-size: 2.1rem;
     }
 
-    @media (max-width: 400px){
-        font-size: 1.7rem;
+    @media (max-width: 400px) {
+      font-size: 1.7rem;
     }
 
     > span:first-of-type {

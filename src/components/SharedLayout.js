@@ -42,10 +42,10 @@ export default function SharedLayout() {
 }
 
 const primary = "#E11756";
-const secondary = "#FCCC0A";
-const heroText = "#BFC1C2";
+// const secondary = "#FCCC0A";
+// const heroText = "#BFC1C2";
 const bg = "#fff";
-const dark = "#757677";
+// const dark = "#757677";
 
 const Container = styled.div`
   max-width: 1500px;

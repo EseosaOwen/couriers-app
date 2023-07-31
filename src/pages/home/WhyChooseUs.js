@@ -1,5 +1,4 @@
 import { styled } from "styled-components";
-import { BsBusFrontFill, BsTrainFreightFrontFill } from "react-icons/bs";
 import { MdOutlineAttachMoney } from "react-icons/md";
 
 export default function WhyChooseUs() {
@@ -56,7 +55,7 @@ export default function WhyChooseUs() {
       </Main>
       <Image>
         <figure>
-          <img src="/assets/images/container-docker.jpg" />
+          <img src="/assets/images/container-docker.jpg" alt="" />
         </figure>
       </Image>
     </Container>
@@ -65,9 +64,9 @@ export default function WhyChooseUs() {
 
 const primary = "#E11756";
 const secondary = "#FCCC0A";
-const heroText = "#BFC1C2";
+// const heroText = "#BFC1C2";
 const bg = "#fff";
-const dark = "#757677";
+// const dark = "#757677";
 
 const Container = styled.div`
   display: flex;

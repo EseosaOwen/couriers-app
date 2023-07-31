@@ -1,7 +1,7 @@
 import React from "react";
 import { Link, NavLink, useLocation } from "react-router-dom";
 import styled from "styled-components";
-import { RiSearch2Line } from "react-icons/ri";
+// import { RiSearch2Line } from "react-icons/ri";
 
 export default function NavBar() {
   const [hiddenNav, setHiddenNav] = React.useState("hidden-nav");
@@ -31,7 +31,7 @@ export default function NavBar() {
     <Container className="" id="navbar">
       <Link to="/">
         <div className="logo">
-          <img src="/assets/images/logo.png" />
+          <img src="/assets/images/logo.png" alt=""/>
         </div>
       </Link>
 
@@ -96,10 +96,10 @@ export default function NavBar() {
 }
 
 const primary = "#E11756";
-const secondary = "#FCCC0A";
-const heroText = "#BFC1C2";
+// const secondary = "#FCCC0A";
+// const heroText = "#BFC1C2";
 const bg = "#fff";
-const dark = "#020";
+// const dark = "#020";
 
 const Container = styled.header`
   display: flex;

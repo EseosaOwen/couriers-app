@@ -137,7 +137,7 @@ export default function Testimonials() {
 
 const primary = "#E11756";
 const secondary = "#FCCC0A";
-const heroText = "#BFC1C2";
+// const heroText = "#BFC1C2";
 const bg = "#fff";
 const dark = "#757677";
 
@@ -295,16 +295,16 @@ const TopSection = styled.div`
   }
 `;
 
-const CustomPrevButton = styled.button`
-  left: 10% !important;
-  background: white;
-  color: black;
-  transition: all 0.2s ease;
-`;
+// const CustomPrevButton = styled.button`
+//   left: 10% !important;
+//   background: white;
+//   color: black;
+//   transition: all 0.2s ease;
+// `;
 
-const CustomNextButton = styled.button`
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  transform: translateX(-58%) !important;
-`;
+// const CustomNextButton = styled.button`
+//   position: absolute;
+//   top: 50%;
+//   transform: translateY(-50%);
+//   transform: translateX(-58%) !important;
+// `;

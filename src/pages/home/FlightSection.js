@@ -6,7 +6,7 @@ export default function FlightSection() {
     <Container>
       <div>
         <figure>
-          <img src="/assets/images/service1.webp" />
+          <img src="/assets/images/service1.webp" alt=""/>
         </figure>
         <div>
           <BsBusFrontFill size={25} color={primary} />
@@ -27,7 +27,7 @@ export default function FlightSection() {
           </p>
         </div>
         <figure>
-          <img src="/assets/images/service1.webp" />
+          <img src="/assets/images/service1.webp" alt="" />
         </figure>
       </div>
     </Container>
@@ -35,10 +35,10 @@ export default function FlightSection() {
 }
 
 const primary = "#E11756";
-const secondary = "#FCCC0A";
-const heroText = "#BFC1C2";
-const bg = "#fff";
-const dark = "#757677";
+// const secondary = "#FCCC0A";
+// const heroText = "#BFC1C2";
+// const bg = "#fff";
+// const dark = "#757677";
 
 const Container = styled.div`
   display: flex;
