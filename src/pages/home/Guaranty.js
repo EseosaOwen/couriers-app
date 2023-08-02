@@ -242,7 +242,9 @@ const TopSection = styled.div`
     font-size: 2rem;
     font-family: Poppins;
     width: 50%;
+    margin: 0 auto;
     margin-bottom: 1rem;
+    text-align: center;
 
     @media (max-width: 800px) {
       width: 80%;
@@ -263,6 +265,9 @@ const TopSection = styled.div`
 
   p {
     width: 80%;
+    margin: 0 auto;
+    text-align: center;
+
     @media (max-width: 500px) {
       width: 100%;
     }

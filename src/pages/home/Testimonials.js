@@ -98,8 +98,8 @@ const Slider = () => {
               <img src={`/assets/images/${slide.image}`} alt={slide.header} />
             </figure>
             <div>
-              <p style={{fontWeight: "600"}}>{slide.name}</p>
-              <p style={{color: dark}}>{slide.profession}</p>
+              <p style={{ fontWeight: "600" }}>{slide.name}</p>
+              <p style={{ color: dark }}>{slide.profession}</p>
             </div>
           </main>
         </SwiperSlide>
@@ -123,7 +123,9 @@ export default function Testimonials() {
   return (
     <Container>
       <TopSection>
-        <h1>Our Clients feedback</h1>
+        <h1>
+          Our <span>Clients</span> feedback
+        </h1>
         <p>
           Sed tempor nec est finibus molestie. Sed molestie orci eleifend,
           sodales est ut, aliquam quam. Mauris fringilla consectetur purus eget
@@ -269,6 +271,8 @@ const TopSection = styled.div`
     font-family: Poppins;
     width: 50%;
     margin-bottom: 1rem;
+    margin: 0 auto;
+    text-align: center;
 
     @media (max-width: 800px) {
       width: 80%;
@@ -289,6 +293,8 @@ const TopSection = styled.div`
 
   p {
     width: 80%;
+    margin: 0 auto;
+    text-align: center;
     @media (max-width: 500px) {
       width: 100%;
     }
