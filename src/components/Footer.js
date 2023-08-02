@@ -2,16 +2,16 @@ import styled from "styled-components";
 import { Link } from "react-router-dom";
 import { FaFacebook, FaInstagram, FaLinkedin, FaTwitter } from "react-icons/fa";
 
-export default function () {
+export default function Footer() {
   return (
     <Container>
       <Left>
         <div>
           <Link to="/">
             <div className="logo">
-              <a>
-                <img src="/assets/images/logo.png" />
-              </a>
+              {/* <a href=""> */}
+              <img src="/assets/images/logo.png" alt="" />
+              {/* </a> */}
             </div>
           </Link>
           <Socials>
@@ -102,9 +102,9 @@ export default function () {
 
 const primary = "#E11756";
 const secondary = "#FCCC0A";
-const heroText = "#BFC1C2";
-const bg = "#fff";
-const dark = "#757677";
+// const heroText = "#BFC1C2";
+// const bg = "#fff";
+// const dark = "#757677";
 
 const Container = styled.footer`
   background-color: ${secondary};

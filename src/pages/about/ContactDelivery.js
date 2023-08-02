@@ -58,7 +58,7 @@ export default function ContactDelivery() {
 const primary = "#E11756";
 const secondary = "#FCCC0A";
 // const heroText = "#BFC1C2";
-const bg = "#fff";
+// const bg = "#fff";
 // const dark = "#020";
 
 const Container = styled.div`
