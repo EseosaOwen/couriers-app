@@ -9,9 +9,9 @@ export default function Footer() {
         <div>
           <Link to="/">
             <div className="logo">
-              {/* <a href=""> */}
-              <img src="/assets/images/logo.png" alt="" />
-              {/* </a> */}
+              <a href="">
+                <img src="/assets/images/logo.png" alt=""/>
+              </a>
             </div>
           </Link>
           <Socials>
