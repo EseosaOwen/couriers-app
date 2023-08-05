@@ -169,6 +169,10 @@ const Container = styled.div`
     margin: 0 auto;
     width: 60%;
     text-align: center;
+
+    @media (max-width: 600px) {
+      width: 100%;
+    }
   }
 `;
 
